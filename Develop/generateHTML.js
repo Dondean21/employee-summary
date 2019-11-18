@@ -11,6 +11,7 @@ function generateHTML(managerArr, engineerArr, internArr) {
        body {
           font-family:Arial, Helvetica, sans-serif;
           margin: 0 auto;
+          background-color: gray;
        }
        #header {
           background-color: burlywood;
@@ -20,12 +21,12 @@ function generateHTML(managerArr, engineerArr, internArr) {
           height: 8rem;
        }
        .card {
-          border: 2px solid whitesmoke;
+          border: 2px solid black;
           margin: 1%;
-          text-align: left;
+          text-align: center;
           border-radius: 5px;
           height: 300px;
-          min-width: 260px;
+          min-width: 380px;
           float: left;
           box-shadow: 0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
           background-color: whitesmoke;
@@ -41,7 +42,9 @@ function generateHTML(managerArr, engineerArr, internArr) {
           border-radius: 3px;
        }
        h1 {
-          padding-top: 35px;
+         position: relative;
+         font-size: 80pt;
+         bottom: 55px;
        }
        h2 {
           margin-top: 0%;
